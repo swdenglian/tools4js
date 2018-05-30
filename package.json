@@ -1,0 +1,16 @@
+{
+  "name": "tools4js",
+  "version": "0.0.2",
+  "description": "javascript tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "tools"
+  ],
+  "author": "D__",
+  "license": "MIT"
+}
