@@ -4,7 +4,8 @@
   "description": "javascript tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc -w --sourceMap",
+    "build": "tsc"
   },
   "keywords": [
     "js",
@@ -12,5 +13,8 @@
     "tools"
   ],
   "author": "D__",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
 }

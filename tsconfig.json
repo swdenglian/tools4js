@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // es6
+    "target": "es2016",
+    // 严格模式
+    "alwaysStrict": true,
+    // 自动生成 .d.ts 
+    "declaration": true,
+    // 生成 的.d.ts 输出文件夹 
+    // "declarationDir": "./types",
+    // 支持装饰器
+    "experimentalDecorators": true,
+    // 输出文件
+    "outDir": "./build",
+    // 报错时候不输出文件
+    "noEmitOnError":true,
+    // 输出全部报错信息
+    "noErrorTruncation": true,
+    // 移除注释
+    "removeComments":true,
+    // 不对具有 /** @internal */ JSDoc注解的代码生成代码。
+    "stripInternal":true,
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
