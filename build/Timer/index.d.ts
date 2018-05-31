@@ -1,4 +1,4 @@
 export default class Timer {
     constructor();
-    getDate(): Date;
+    getDate(): Promise<Date>;
 }

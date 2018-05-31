@@ -1,0 +1,6 @@
+{
+  "parser": "typescript-eslint-parse",
+  "rules": {
+    "semi": "error"
+  }
+}

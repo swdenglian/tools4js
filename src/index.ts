@@ -1,4 +1,4 @@
-import Timer from './Timer/index';
+import Timer from './timer/index';
 
 export {
   Timer

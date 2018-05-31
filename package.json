@@ -15,6 +15,7 @@
   "author": "D__",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^2.8.3"
+    "typescript": "^2.8.3",
+    "typescript-eslint-parser": "^15.0.0"
   }
 }

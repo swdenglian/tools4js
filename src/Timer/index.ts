@@ -3,7 +3,8 @@ export default class Timer {
 
   }
 
-  getDate(): Date {
+  async getDate() {
+    
     return new Date();
   }
 }
