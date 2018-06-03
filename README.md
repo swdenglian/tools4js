@@ -1,6 +1,8 @@
 # tools4js
 
 JavaScript Tools with ES6/7  CMD
+----
+[![Build Status](https://travis-ci.org/swdenglian/tools4js.svg?branch=master)](https://travis-ci.org/swdenglian/tools4js)
 
 ## TypeScript Study
 
