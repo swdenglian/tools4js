@@ -3,10 +3,6 @@ export default class Timer {
     return new Date();
   }
 
-  helloWorld2() {
-    console.log('x');
-  }
-
   helloWorld() {
     return 'helloWorld';
   }
