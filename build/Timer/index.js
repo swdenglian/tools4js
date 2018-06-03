@@ -15,4 +15,3 @@ export default class Timer {
         });
     }
 }
-//# sourceMappingURL=index.js.map

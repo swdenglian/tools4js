@@ -1,10 +1,9 @@
 export default class Timer {
-  constructor() {
-
+  async getDate() {
+    return new Date();
   }
 
-  async getDate() {
-    
-    return new Date();
+  helloWorld() {
+    return 'helloWorld';
   }
 }

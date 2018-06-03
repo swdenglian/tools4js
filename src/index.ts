@@ -1,5 +1,1 @@
-import Timer from './timer/index';
-
-export {
-  Timer
-};
+export { default as Timer } from './timer/index';
