@@ -1,6 +1,6 @@
-node_modules/*
-test/*
-src/*
+/node_modules
+/src
+/test
 
 yarn.lock
 yarn-error.log
