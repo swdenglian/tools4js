@@ -7,11 +7,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 export default class Timer {
-    constructor() {
-    }
     getDate() {
         return __awaiter(this, void 0, void 0, function* () {
             return new Date();
         });
+    }
+    helloWorld() {
+        return 'helloWorld';
     }
 }
