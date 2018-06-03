@@ -6,7 +6,7 @@ node_js:
 install:
   - npm i
 script:
-  - npm build
+  - npm run test
 cache:
   directories:
     - "node_modules"
