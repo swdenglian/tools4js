@@ -57,7 +57,7 @@ export default class Timer {
     return new Timer(lastDayOfMonth);
   }
 
-  format(fmt: string) {
+  format(fmt: string): string {
     let _fmt = fmt;
     let date = this.getValue();
     let o = {
