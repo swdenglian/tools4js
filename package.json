@@ -1,8 +1,8 @@
 {
   "name": "tools4js",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "javascript tools",
-  "main": "index.js",
+  "main": "./build/index",
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
