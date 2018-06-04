@@ -9,7 +9,7 @@ export default class Timer {
 
   constructor(date?: Date | Number | string | Timer | null) {
     if (date instanceof Date) {
-      // assign new Date to toDate when toDate is Invalid Date
+      // assign new Date to Timer when date is Invalid Date
       if (isNaN(date.getTime())) {
         this.setValue(new Date());
       } else {
