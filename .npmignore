@@ -1,8 +1,12 @@
 /node_modules
 /src
 /test
+tsconfig.json
+.eslintignore
+.eslintrc.js
+jest.config.js
 
- .travis.yml
+.travis.yml
 
 yarn.lock
 yarn-error.log
