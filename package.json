@@ -1,13 +1,14 @@
 {
   "name": "tools4js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "javascript tools",
   "main": "index.js",
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint ./src/**"
+    "lint": "eslint ./src/**",
+    "prepublish": "npm run test && npm run build"
   },
   "pre-commit": [
     "lint",
