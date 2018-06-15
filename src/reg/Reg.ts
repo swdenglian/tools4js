@@ -1,17 +1,9 @@
-export default class Reg {
-  reg: ((obj: any) => Boolean) | RegExp;
-
-  constructor(reg: ((obj: any) => Boolean) | RegExp) {
-    this.reg = reg;
+export default function createReg(reg: RegExp | Function): Function {
+  if (reg instanceof RegExp) {
+    return (str: string) => reg.test(str);
   }
 
-  test(obj: any) {
-    if (this.reg instanceof RegExp) {
-      return this.reg.test(obj);
-    }
-
-    if (typeof this.reg === 'function') {
-      return this.reg(obj);
-    }
+  if (typeof reg === 'function') {
+    return reg;
   }
 }

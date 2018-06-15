@@ -1,4 +1,8 @@
-# reg
-正则表达式及常用的验证方法
-
-# API
+#Reg
+- 手机号码，11位数字  mobile
+- 座机号码 phone
+- email email
+- 邮编  postCode
+- 身份证号码 idCard
+- 超链接 url
+- QQ号，5-11位数字 qq
