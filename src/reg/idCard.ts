@@ -1,4 +1,4 @@
-import Reg from './Reg';
+import createReg from './Reg';
 
 function IdentityCodeValid(_code) {
   let code = _code;
@@ -38,4 +38,4 @@ function IdentityCodeValid(_code) {
   return pass;
 }
 
-export default new Reg(IdentityCodeValid);
+export default createReg(IdentityCodeValid);

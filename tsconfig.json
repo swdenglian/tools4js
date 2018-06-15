@@ -11,7 +11,7 @@
     // 支持装饰器
     "experimentalDecorators": true,
     // 输出文件
-    "outDir": "./build",
+    "outDir": "./dist",
     // 报错时候不输出文件
     "noEmitOnError":true,
     // 输出全部报错信息

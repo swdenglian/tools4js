@@ -1,14 +1,14 @@
 {
   "name": "tools4js",
-  "version": "0.0.9",
+  "version": "0.0.13",
   "description": "javascript tools",
-  "main": "./build/index",
+  "main": "./index.js",
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
     "test": "jest",
     "lint": "eslint ./src/**",
-    "prepublish": "npm run test && npm run build"
+    "release": "node ./build/publish.js"
   },
   "pre-commit": [
     "lint",
@@ -31,6 +31,8 @@
     "pre-commit": "^1.2.2",
     "ts-jest": "^22.4.6",
     "typescript": "^2.9.1",
-    "typescript-eslint-parser": "^15.0.0"
-  }
+    "typescript-eslint-parser": "^15.0.0",
+    "shelljs": "^0.8.2"
+  },
+  "dependencies": {}
 }

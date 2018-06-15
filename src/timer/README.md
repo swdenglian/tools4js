@@ -3,31 +3,31 @@
 ## API
 
 ###### constructor
-> Timer's constructor
+> Timer 的构造函数
 - Return: void
 - Params: (date)
 
   Name | Require | Type | Default |  Descrition  
   ----|--|------|---|------
-  | date   |  false  |   date?: Date / Number / string / Timer / null |   undefined   | init timer info  |
+  | date   |  false  |   date?: Date / Number / string / Timer / null |   undefined   | 初始化timer  |
 
 ###### getTime 
-> Timer get time stamp
+> Timer 获取时间戳
 - Return: number
 - Params: ( )
 
 ###### getFirstDayOfMonth 
-> Timer get first day of the month 
+> 获取当前时间的该月第一天
 - Return: Timer
 - Params: ( )
 
 ###### getLastDayOfMonth 
-> Timer get last day of the month 
+> 获取当前时间的该月最后天
 - Return: Timer
 - Params: ( )
 
 ##### format
-> The function is Timer's formatter by 'fmt'
+> 根据 fmt 来格式化时间
 - Return: string
 - Params: (fmt)
 
@@ -37,7 +37,7 @@
 
 ##### setValue
 
-> The function set Date value of Timer
+> 设置 Timer value 值类型为 Date
 - Return: void
 - Params: (value)
 
@@ -47,6 +47,6 @@
 
 
 ###### getValue 
-> The function get value of Timer.
+> 获取当前Timer 的Value 值 类型为 Date
 - Return: Date
 - Params: ( )
