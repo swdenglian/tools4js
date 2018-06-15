@@ -1,3 +1,2 @@
-import Reg from './Reg';
-declare const _default: Reg;
+declare const _default: Function;
 export default _default;

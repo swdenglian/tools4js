@@ -1,4 +1,4 @@
-import Reg from './Reg';
+import createReg from './Reg';
 function isBankCard(bankno) {
     if (!bankno)
         return false;
@@ -53,4 +53,4 @@ function isBankCard(bankno) {
         return false;
     }
 }
-export default new Reg(isBankCard);
+export default createReg(isBankCard);

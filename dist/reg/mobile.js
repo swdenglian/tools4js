@@ -1,2 +1,2 @@
-import Reg from './Reg';
-export default new Reg(/^[0-9]{11}$/);
+import createReg from './Reg';
+export default createReg(/^[0-9]{11}$/);

@@ -1,2 +1,2 @@
-import Reg from './Reg';
-export default new Reg(/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/);
+import createReg from './Reg';
+export default createReg(/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/);

@@ -1,13 +1,8 @@
-export default class Reg {
-    constructor(reg) {
-        this.reg = reg;
+export default function createReg(reg) {
+    if (reg instanceof RegExp) {
+        return (str) => reg.test(str);
     }
-    test(obj) {
-        if (this.reg instanceof RegExp) {
-            return this.reg.test(obj);
-        }
-        if (typeof this.reg === 'function') {
-            return this.reg(obj);
-        }
+    if (typeof reg === 'function') {
+        return reg;
     }
 }
