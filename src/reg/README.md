@@ -1,4 +1,4 @@
-#Reg
+# Reg
 - 手机号码，11位数字  mobile
 - 座机号码 phone
 - email email
