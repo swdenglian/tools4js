@@ -5,5 +5,6 @@ shell.exec(`
   npm run build && 
   cp package.json ./dist/package.json && 
   cp README.md ./dist/README.md && 
+  cp icon.png ./dist/icon.png && 
   cd ./dist && npm publish
 `);
