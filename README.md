@@ -16,6 +16,7 @@
 ## 链接
 - [常见正则表达式（Reg）](./src/reg/README.md)
 - [常见时间操作（timer）](./src/timer/README.md)
+- [常见的钱的操作（Money）](./src/money/README.md)
 
 ## 支持环境
 - CMD
