@@ -6,3 +6,5 @@ export { default as postCode } from './postCode';
 export { default as idCard } from './idCard';
 export { default as url } from './url';
 export { default as qq } from './qq';
+export { default as number } from './number';
+export { default as chinese } from './chinese';
