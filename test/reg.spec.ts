@@ -25,8 +25,15 @@ test('idCard reg', () => {
   expect(reg.idCard('230804197011188241')).toBe(false);
 });
 
-
 test('url reg', () => {
   expect(reg.url('http://www.baidu.com?xxx=111&&a=22#/sss')).toBe(true);
   expect(reg.url('adsf')).toBe(false);
+});
+
+test('number reg', () => {
+  expect(reg.number('1111')).toBe(true);
+});
+
+test('chinese reg', () => {
+  expect(reg.chinese('中文')).toBe(true);
 });
