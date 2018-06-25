@@ -34,22 +34,5 @@ yarn add tools4js
 import { Timer } from 'tools4js';
 new Timer().format('yyyy/MM/dd');
 ```
-
-## 如何开发这个工程
-
-clone this repo
-```cmd
-  git clone https://github.com/swdenglian/tools4js.git
-```
-dev
-```cmd
-  npm install
-  npm run dev  
-```
-test
-```cmd
-  npm run test
-```
-
 ## LICENSE
 MIT LICENSE
