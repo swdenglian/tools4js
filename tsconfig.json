@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    // es6
-    "target": "es2016",
+    // es5
+    "target": "es5",
     // 严格模式
     "alwaysStrict": true,
     // 自动生成 .d.ts 
@@ -20,6 +20,7 @@
     "removeComments":true,
     // 不对具有 /** @internal */ JSDoc注解的代码生成代码。
     "stripInternal":true,
+    "lib": ["es5", "es2015", "dom", "scripthost"]
   },
   "include": [
     "./src/**/*"
