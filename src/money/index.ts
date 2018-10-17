@@ -1,3 +1,12 @@
+export function formatter(value) {
+  if (!value) return 0;
+  return `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
+export function money(number: Number = 0) {
+  return new Money(number);
+}
+
 export default class Money {
   value: Number = 0;
 
@@ -73,5 +82,10 @@ export default class Money {
 
   getValue() {
     return this.value;
+  }
+
+  toString(symbol = null) {
+    let str = formatter(this.getValue());
+    return symbol ? `${symbol}${str}` : str;
   }
 }
